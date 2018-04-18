@@ -1,9 +1,16 @@
-// Sketch taken from http://www.akeric.com/blog/?p=1411
+// 
+// Simple controller for esp8266 from android phone over UDP.
+//
+// Written by Miguel Aragon, 2018.
+// 
+//
+// Notes: 
+// Multitouch code from http://www.akeric.com/blog/?p=1411
 // Eric Pavey - AkEric.com - 2010-12-29
-// Example showing simple multi-touch detection in 'Processing - Android'.
-// My Samsung Captivate (Galaxy S) can track 5 touch-points.
-// Updated to work with Processing's surfaceTouchEvent instead of
-// Android's dispatchTouchEvent.
+//   Example showing simple multi-touch detection in 'Processing - Android'.
+//   My Samsung Captivate (Galaxy S) can track 5 touch-points.
+//   Updated to work with Processing's surfaceTouchEvent instead of
+//   Android's dispatchTouchEvent.
 
 // Should point out that API Level 9 has MotionEvent.PointerCoords class that
 // expose some cool functionality, but I'm only on Level 7.
