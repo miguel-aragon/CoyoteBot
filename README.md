@@ -4,7 +4,7 @@ Control an esp8266 tank with an android phone (processing + arduino + esp8266)
 
 ## Description
 
-This is a simple arduino + processing (android) project to show how to control electronic devices using an esp8266 based board and an android phone running a [processing](https://processing.org/) processing sketch.
+This is a simple [arduino](https://www.arduino.cc/) + [processing](https://processing.org/) (android) project to show how to control electronic devices using an esp8266 based board and an android phone running a [processing](https://processing.org/) processing sketch.
 
 There are plenty of examples and tutorials around but I could not find a minimally functional straightforward project to start from there. Taking a basic project and improving it is one of the best ways I have for learning new stuff. Anyway, since there was nothing like I was looking for I wrote this project from scratch (more or less since I used the arduino/processing examples). 
 
