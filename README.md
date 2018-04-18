@@ -16,6 +16,19 @@ The communication protocol is based on UDP to make it fast and simple. However, 
 
 The commands are continuously sent regardless if there is a change in the state or not. A better implementation would be a state machine with something like a "heartbit" updating and cheling status from time to time as done by Hadoop (to check the status of a datacenter).
 
+The "controller" app has two vertical control bars like those in remote controlled tank toys. It can control the speed using pulse width modulation (PWM) and has forward and reverse. The controls can be adjusted at the same time (i.e. multitouch).
+
+If you modify the code keep in mind that it is a bad idea to pass high values to both inputs of the H-bridge at the same time.
+
+## Notes
+
+In order to let the android app communicate to other device we must tell it explicity in the AndroidManifest file:
+
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
+
 ## CoyoteBot
 
 You can find plenty of robots at trift stores. We found a R.A.D 2.0 toy robot, cut the upper torso and removed the electronics. The result is CoyoteBot, a very nice tank with plenty of space for whatever project we think next.
