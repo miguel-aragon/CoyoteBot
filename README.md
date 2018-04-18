@@ -16,9 +16,9 @@ The communication protocol is based on UDP to make it fast and simple. However, 
 
 The commands are continuously sent regardless if there is a change in the state or not. A better implementation would be a state machine with something like a "heartbit" updating and cheling status from time to time as done by Hadoop (to check the status of a datacenter).
 
-## Coyotebot
+## CoyoteBot
 
-You can find plenty of robots at trift stores. We found a R.A.D 2.0 toy robot, cut the upper torso and removed the electronics. The result is a very nice tank with plenty of space for whatever we think next.
+You can find plenty of robots at trift stores. We found a R.A.D 2.0 toy robot, cut the upper torso and removed the electronics. The result is CoyoteBot, a very nice tank with plenty of space for whatever project we think next.
 
 The esp8266 board we used is the esp8266 ESP12E
 
