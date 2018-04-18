@@ -28,7 +28,9 @@ driving the motors with an L298N Dual H Bridge Stepper Motor Drive
 
 And finally this is CoyoteBot. It still needs a top cover, I will probably 3D print something to mount a Lego baseplate.
 
+![picture](images/top.jpg)
 
+![picture](images/side.jpg)
 
 
 
