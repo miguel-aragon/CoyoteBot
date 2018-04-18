@@ -4,7 +4,7 @@ Control an esp8266 tank with an android phone (processing + arduino + esp8266)
 
 ## Description
 
-This is a simple arduino + processing (android) project to show how to control electronic devices using an esp8266 based board and an android phone running a processing sketch.
+This is a simple arduino + processing (android) project to show how to control electronic devices using an esp8266 based board and an android phone running a [processing](www.processing.org) processing sketch.
 
 There are plenty of examples and tutorials around but I could not find a minimally functional straightforward project to start from there. Taking a basic project and improving it is one of the best ways I have for learning new stuff. Anyway, since there was nothing like I was looking for I wrote this project from scratch (more or less since I used the arduino/processing examples). 
 
@@ -22,9 +22,11 @@ You can find plenty of robots at trift stores. We found a R.A.D 2.0 toy robot, c
 
 The esp8266 board we used is the esp8266 ESP12E
 
+![picture](images/ESP-12E.jpg)
 
 driving the motors with an L298N Dual H Bridge Stepper Motor Drive
 
+![picture](images/L298N.jpg)
 
 And finally this is CoyoteBot. It still needs a top cover, I will probably 3D print something to mount a Lego baseplate.
 
