@@ -26,6 +26,15 @@ The esp8266 board we used is the esp8266 ESP12E
 driving the motors with an L298N Dual H Bridge Stepper Motor Drive
 
 
+And finally this is CoyoteBot. It still needs a top cover, I will probably 3D print something to mount a Lego baseplate.
+
+
+
+
+
+
+
+
 
 
 
